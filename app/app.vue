@@ -1,10 +1,25 @@
 <template>
-  <main class="test">test</main>
+  <main class="min-h-screen bg-TXT">
+    <div
+      class="h-32 rounded-lg bg-green text-white flex items-center justify-center">
+      green (DEFAULT = #01C11F)
+    </div>
+    <div
+      class="h-32 rounded-lg bg-green-light text-black flex items-center justify-center">
+      green-light
+    </div>
+    <div
+      class="h-32 rounded-lg bg-BG-quest text-black flex items-center justify-center">
+      BG-quest (#E9DCAE)
+    </div>
+    <div
+      class="h-32 rounded-lg bg-BG-hover text-white flex items-center justify-center">
+      BG-hover (с альфой)
+    </div>
+    <div
+      class="h-32 rounded-lg bg-BG-active text-black flex items-center justify-center">
+      BG-active (#F6D515)
+    </div>
+  </main>
 </template>
 <script setup lang="ts"></script>
-<style scoped>
-.test {
-  height: 100dvh;
-  background: #000;
-}
-</style>
